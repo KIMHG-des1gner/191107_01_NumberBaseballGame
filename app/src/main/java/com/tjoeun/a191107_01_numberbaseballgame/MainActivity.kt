@@ -19,7 +19,7 @@ class MainActivity : BaseActivity() {
 
     fun createQuestion() {
         while (true) {
-            var number = Random.nextInt(1, 9)
+            var number = Random.nextInt(1, 10)
 
             if (!questionNumArray.contains(number)) {
                 questionNumArray.add(number)
